@@ -33,3 +33,7 @@ do
   
   elif [ $choice -eq 5 ]
   then
+      break
+ fi
+
+done
