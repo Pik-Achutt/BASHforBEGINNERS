@@ -1,5 +1,4 @@
-$1=20
-$2=10
+read 
 answera=$(echo $(( $1 + $2 )))
 echo "Sum is $answera"
 answerb=$(echo $(( $1 - $2 )))
