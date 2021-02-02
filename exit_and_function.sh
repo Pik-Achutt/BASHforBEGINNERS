@@ -19,6 +19,7 @@ end
 if [ $rocket_status = "failed" ]
 then
     rocket-debug $mission_name
+    return 1
 fi}
 launch_rocket missionmangal
 launch_rocket andromeda
